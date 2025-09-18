@@ -1,0 +1,3 @@
+[submodule "external/best-practices-tool"]
+	path = external/best-practices-tool
+	url = https://github.com/arturdrr/best-practices-tool.git
