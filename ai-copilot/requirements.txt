@@ -1,0 +1,2 @@
+# Lista de dependências do AI Copilot
+# Ex: openai, langchain

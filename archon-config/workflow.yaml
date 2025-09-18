@@ -1,0 +1,11 @@
+steps:
+  - name: setup
+    run: ./scripts/install-all.sh
+    on_success: notify_success
+    on_failure: notify_failure
+
+  - name: notify_success
+    run: echo "Pipeline concluído com sucesso."
+
+  - name: notify_failure
+    run: echo "Pipeline falhou. Verifique logs."

@@ -1,0 +1,4 @@
+settings:
+  max_retries: 3
+  timeout: 3600  # segundos
+  notification_email: devops@empresa.com
